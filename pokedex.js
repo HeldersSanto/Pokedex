@@ -9,13 +9,13 @@ function getRandomInt(min, max) {
 changePokemon(0);
 
 document.querySelector('.btnsingle1').addEventListener('click', ()=>{
-    var numero = getRandomInt(0, 50);
+    var numero = getRandomInt(0, 500);
     visor.innerHTML="";
     info.innerHTML="";
     changePokemon(numero);
 })
 document.querySelector('.btnsingle2').addEventListener('click', ()=>{
-    var numero = getRandomInt(0, 50);
+    var numero = getRandomInt(0, 500);
     info.innerHTML="";
     visor.innerHTML="";
     changePokemon(numero);
