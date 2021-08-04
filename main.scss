@@ -137,8 +137,8 @@ div.visor{
 .botoes{
     position: absolute;
     width: 17.2vw;
-    height: 5.1vh;
-    bottom: 11vh;
+    height: 8.1vh;
+    bottom: 16vh;
     left: 58vw;
     .btnsingle1, .btnsingle2{
         width: 50%;
@@ -163,10 +163,10 @@ div.visor{
 .changeimg{
     position:absolute;
     width: 12vw;
-    height: 5.7vh;
+    height: 8.7vh;
     display: flex;
     justify-content: space-between;
-    bottom: 7.5vh;
+    bottom: 10.5vh;
     left: 30.5vw;
     .button{
         width: 33%;
@@ -183,39 +183,4 @@ div.visor{
         border-top: 8px solid rgba(224, 224, 224, 0.644);
     }
     
-}
-@media screen and (max-width: 690px){
-.main{
-    width: 100%;
-    background-size: 100% 100%;
-    .visor{
-        top:36.5%;
-        height: 26%;
-    }
-    .name-info{
-        top: 32.2%;
-        height: 22.3%;
-    }
-    .lente{
-        top: 7%;
-        height: 15.8%;
-    }
-    .lente1, .lente2, .lente3{
-        top: 7.7%;
-        height: 5.6%;
-    }
-    .lente4{
-        bottom: 18.1%;
-        height: 9.79%;
-    }
-    .botoes{
-        bottom: 16%;
-        height: 8%;
-    }
-    .changeimg{
-        bottom: 11%;
-        height: 8.1%;
-    }
-    
-}
 }
